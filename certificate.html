@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>ICAI 75</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/feather/feather.css">
+  <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+
+<body>
+  <div class="container">
+<div class="certificate-box auth pt-4">
+ 
+  <div class="pt-3">
+    <div class="brand-logo">
+      <img src="images/arete-logo-2.png" alt="logo">
+    </div>
+    <h5 class="text-center pt-0 text-dark cong">Congratulations</h5>
+    <p class="text-center pt-0 text-dark">This certificate is proudly presented to</p>
+    <h4 class="certificate-name fw-bold text-center">Sagar Tripathi</h4>
+    <div class="tree-date text-center pb-1 text-dark">15-06-2024</div>
+    <div class="certificate-number text-center text-dark">Certification No. GBT123958736</div>
+    <div class="text-center"><img src="images/certificate-logo.jpg" alt=""></div>
+  </div>
+  
+</div>
+  </div>
+  <!-- container-scroller -->
+  <!-- base:js -->
+  <script src="vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+
+  <!-- inject:js -->
+  <script src="js/off-canvas.js"></script>
+  <script src="js/hoverable-collapse.js"></script>
+  <script src="js/template.js"></script>
+  <!-- endinject -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+
+  <script>
+    jQuery(document).ready(function ($) {
+      "use strict";
+      //  TESTIMONIALS CAROUSEL HOOK
+      $('#customers-testimonials').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        nav: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 450,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1170: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
+
+  <script>
+    jQuery(document).ready(function ($) {
+      "use strict";
+      //  TESTIMONIALS CAROUSEL HOOK
+      $('#customers-testimonials2').owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        nav: true,
+        autoplayTimeout: 3000,
+        smartSpeed: 450,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1170: {
+            items: 5
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+    $('.counter-count').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
